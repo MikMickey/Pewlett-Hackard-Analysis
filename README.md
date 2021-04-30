@@ -27,22 +27,24 @@ ERD prepared helped in creating tables easily since the primary keys and the dat
 retirement_titles
     - joined employees & titles table using the inner join method and emp_no as primary key relation. Filtered birth_dates beween 1952 and 1955
 
-![retirement_titles_query](https://user-images.githubusercontent.com/80075982/116642344-7661c300-a923-11eb-82c3-de585d5a50ed.png)
+![retirement_titles_results_preview](https://user-images.githubusercontent.com/80075982/116724217-3a674600-a995-11eb-9aad-fa74d04817cd.png)
 
 unique_titles
     - from the retirement_titles table, removed the duplicate entries for some employees who have switched titles over the years by using the DISTINCT ON statement.    
 
-![unique_titles_query](https://user-images.githubusercontent.com/80075982/116642350-7e216780-a923-11eb-953a-d6105e338da1.png)      
+![unique_titles_results_preview](https://user-images.githubusercontent.com/80075982/116724230-3f2bfa00-a995-11eb-9113-ee75afac557a.png)
+ 
 
 retiring_titles
     - from the unique_titles table, to retrieve the number of employees by their most recent job tite who are about to retire.
 
-![retiring_titles_query](https://user-images.githubusercontent.com/80075982/116642356-81b4ee80-a923-11eb-9d9b-59be2f213e79.png)
+
+![unique_titles_count_by_title](https://user-images.githubusercontent.com/80075982/116642365-87123900-a923-11eb-906f-aa77f56bc388.png)
 
 mentorship_eligibility
     - joined 3 tables: employees table,  dept_employee table and title table using the left join method and emp_no as primary key relationship. Filtered to to_date from dept_emp table and the birth date between 01-01-1965 and 12-31-1965 from employees table as retiring age.
 
-![mentorship_eligibility_query](https://user-images.githubusercontent.com/80075982/116642358-82e61b80-a923-11eb-83eb-6dc2b79b921e.png)
+![mentorship_eligibility_results_preview](https://user-images.githubusercontent.com/80075982/116724253-46eb9e80-a995-11eb-852b-85019ce0d269.png)
 
 After the table creation, we were able to determine who will be retiring and how many positions need to be filled.
 
@@ -51,6 +53,8 @@ Total current employees to date total is 240,124 employees. Out of the total emp
 
 Query below shows which table needed to combine and filter to get the total employee count.
 ![Current_Employees_count](https://user-images.githubusercontent.com/80075982/116642861-9b0a6a80-a924-11eb-829b-0329e574db89.png)
+![Current_Employees_results_preview](https://user-images.githubusercontent.com/80075982/116725526-d9d90880-a996-11eb-9cf6-abebbce5aa58.png)
+
 
 How many roles will need to be filled as the "silver tsunami" begins to make an impact?
    
@@ -67,6 +71,8 @@ There's not enough candidates or eligible employees to mentor the next genration
 From the mentorship program table, total number of employees that are available for the mentorship role is 1,940 employees. Total of 90,308 positions need to be filled.
 
 The query below joined 3 tables to filter data who were born between 01-01-1965 and 12-31-1965, current titles each employee hold and currently employed.
+
+![mentorship_eligibility_query](https://user-images.githubusercontent.com/80075982/116657923-13345880-a944-11eb-8299-33fc9b677d0e.png)
 
 ![Mentorship_eligibility_count](https://user-images.githubusercontent.com/80075982/116643116-38659e80-a925-11eb-9d56-ff91b8adba01.png)
 
