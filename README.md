@@ -68,6 +68,8 @@ From the mentorship program table, total number of employees that are available 
 
 The query below joined 3 tables to filter data who were born between 01-01-1965 and 12-31-1965, current titles each employee hold and currently employed.
 
+![mentorship_eligibility_query](https://user-images.githubusercontent.com/80075982/116657923-13345880-a944-11eb-8299-33fc9b677d0e.png)
+
 ![Mentorship_eligibility_count](https://user-images.githubusercontent.com/80075982/116643116-38659e80-a925-11eb-9d56-ff91b8adba01.png)
 
 
