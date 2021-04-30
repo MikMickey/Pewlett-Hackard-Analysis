@@ -53,6 +53,8 @@ Total current employees to date total is 240,124 employees. Out of the total emp
 
 Query below shows which table needed to combine and filter to get the total employee count.
 ![Current_Employees_count](https://user-images.githubusercontent.com/80075982/116642861-9b0a6a80-a924-11eb-829b-0329e574db89.png)
+![Current_Employees_count_total](https://user-images.githubusercontent.com/80075982/116727378-54a32300-a999-11eb-8ce1-1cd1157bd8e7.png)
+
 ![Current_Employees_results_preview](https://user-images.githubusercontent.com/80075982/116725526-d9d90880-a996-11eb-9cf6-abebbce5aa58.png)
 
 
@@ -63,18 +65,14 @@ How many roles will need to be filled as the "silver tsunami" begins to make an 
 The query below shows positions need to be filled, positions or title and the count
 
 ![unique_titles_count_by_title](https://user-images.githubusercontent.com/80075982/116642365-87123900-a923-11eb-906f-aa77f56bc388.png)
-![Retiree_Count](https://user-images.githubusercontent.com/80075982/116642866-9d6cc480-a924-11eb-904c-08db93277efd.png)
+![Retiree_Count](https://user-images.githubusercontent.com/80075982/116727381-566ce680-a999-11eb-8acf-a4472d4186a0.png)
+
 
 Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
     
 There's not enough candidates or eligible employees to mentor the next genration of Pewlett Hackard employees. 
 From the mentorship program table, total number of employees that are available for the mentorship role is 1,940 employees. Total of 90,308 positions need to be filled.
 
-The query below joined 3 tables to filter data who were born between 01-01-1965 and 12-31-1965, current titles each employee hold and currently employed.
-
-![mentorship_eligibility_query](https://user-images.githubusercontent.com/80075982/116657923-13345880-a944-11eb-8299-33fc9b677d0e.png)
-
-![Mentorship_eligibility_count](https://user-images.githubusercontent.com/80075982/116643116-38659e80-a925-11eb-9d56-ff91b8adba01.png)
 
 
    
